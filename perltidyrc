@@ -1,0 +1,1 @@
+ -novalign --backup-and-modify-in-place --opening-brace-always-on-right --cuddled-else -nsbl  --paren-tightness=2 -square-bracket-tightness=0 --brace-tightness=2  --block-brace-tightness=2 --nospace-for-semicolon  --maximum-line-length=0 --break-after-all-operators --square-bracket-tightness=2
