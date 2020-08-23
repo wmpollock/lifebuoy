@@ -2,7 +2,7 @@
 Lifebuoy!  For health!
 
 ```sh
-mklink /D C:\Users\YOU\AppData\Roaming\Code\User\snippets "C:\Users\YOU\git\lifebuoy\vscode\snippets"
+mklink /D C:\Users\YOU\AppData\Roaming\Code\User\snippets C:\Users\YOU\git\lifebuoy\vscode\snippets
 
 echo -e "\n[include]\n\tpath = ~/Git/lifebuoy/git/git-aliases.ini" >> ~/.gitconfig
 
