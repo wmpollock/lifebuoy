@@ -1,4 +1,6 @@
 export LSCOLORS=GxFxCxDxBxegedabagaced
+# Fix some colors
+# export LS_COLORS="ex=32"
 
 alias drawio='/c/Program\ Files/draw.io/draw.io.exe' 
 alias hosts='cat "c:\Windows\System32\Drivers\etc\hosts"'
