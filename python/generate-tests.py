@@ -43,8 +43,8 @@ for dir in argv[1:]:
                 print("  needs:", target_file)
 
             with open(target_file, 'w') as file:
-                file.write(f'''
-""" """
+                file.write(f'''#!/usr/bin/env python3                
+""" Unit tests for {import_class} """
 import unittest            
 import {import_class}
 
@@ -52,4 +52,7 @@ class {class_name}Test(unittest.TestCase):
     """ """
     def test_something(self):
         """ """
+
+if __name__ == "__main__":
+    unittest.main()
 ''')

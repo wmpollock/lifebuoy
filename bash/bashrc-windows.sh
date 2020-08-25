@@ -7,7 +7,9 @@ alias hosts='cat "c:\Windows\System32\Drivers\etc\hosts"'
 alias kill-winpty='kill -9 `ps -ef | grep winpty | sed -Ee "s/ +/ /g;"  | cut -f 2 -d " "`'
 
 alias mysqldump='/c/Program Files/MySQL/MySQL Workbench 8.0 CE/mysqldump.exe'
-alias mysql='/c/Program Files/MySQL/MySQL Workbench 8.0 CE/mysql.exe'
+alias mysqlx='"/c/Program Files/MySQL/MySQL Workbench 8.0 CE/mysql.exe"'
+# alias mysql='"C:\Program Files\MySQL\MySQL Workbench 8.0 CE\mysql.exe"'
+alias otherperl="/c/Strawberry/perl/bin/perl.exe"
 alias pylint='python -m pylint'
 alias pydoc='python -m pydoc' # *allegedly* not necessary
 alias whereis=where
