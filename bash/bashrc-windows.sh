@@ -12,6 +12,9 @@ alias mysqlx='"/c/Program Files/MySQL/MySQL Workbench 8.0 CE/mysql.exe"'
 alias otherperl="/c/Strawberry/perl/bin/perl.exe"
 alias pylint='python -m pylint'
 alias pydoc='python -m pydoc' # *allegedly* not necessary
+# I need hte result of python but o'wise this would be nicer
+# wrapped in winpty -- winpty can't hax the
+alias python3="/c/Python38/python.exe"
 alias whereis=where
 alias reset-tty='kill -WINCH $$'
 alias unittest="python -m unittest"
