@@ -2,6 +2,8 @@ export LSCOLORS=GxFxCxDxBxegedabagaced
 # Fix some colors
 # export LS_COLORS="ex=32"
 
+
+alias chrome="/c/Program\ Files\ \(x86\)/Google/Chrome/Application/chrome.exe"
 alias drawio='/c/Program\ Files/draw.io/draw.io.exe' 
 alias hosts='cat "c:\Windows\System32\Drivers\etc\hosts"'
 alias kill-winpty='kill -9 `ps -ef | grep winpty | sed -Ee "s/ +/ /g;"  | cut -f 2 -d " "`'

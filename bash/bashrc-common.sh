@@ -3,6 +3,8 @@ export CLICOLOR=1
 export CDPATH=./:~/:~/Git
 export PATH=$PATH:.
 
+alias lstree="ls -R | grep ':$' | sed -e 's/:$//' -e 's/[^-][^\/]*\//--/g' -e 's/^/   /' -e 's/-/|/'"
+
 # MISC HELPERS
 alias h=history
 alias ll='ls -l'
@@ -12,9 +14,10 @@ alias ll='ls -l'
 # https://stackoverflow.com/a/7131683
 
 # We'll use aliases to keep a common lookup
+alias dedos_path=_dedos-path
 alias dedos-path=_dedos-path
 _dedos-path(){
-    echo "$*" | sed -e "s-C:-/c-" -e "s-\\\-/-g"
+    echo "$*" | sed -e "s-C:-/c-" -e "s-\\\-/-g" -Ee 's/([\(\) ])/\\\1/g'
 }
 
 alias endos-path=_endos-path
@@ -39,4 +42,3 @@ _py_doc() {
     sleep 2
     "C:\Program Files (x86)\Google\Chrome\Application\chrome.exe" http://localhost:6061
 }
-
