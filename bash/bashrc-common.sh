@@ -36,6 +36,8 @@ _go_doc() {
     "C:\Program Files (x86)\Google\Chrome\Application\chrome.exe" http://localhost:6060
 }
 
+alias coverage-html="coverage html; chrome htmlcov/index.html"
+
 alias py-doc='pydoc -p 6061 -b'
 _py_doc() {
     pydoc -p 6061&
