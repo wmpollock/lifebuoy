@@ -19,4 +19,4 @@ alias pydoc='python -m pydoc' # *allegedly* not necessary
 alias python3="/c/Python38/python.exe"
 alias whereis=where
 alias reset-tty='kill -WINCH $$'
-alias unittest="python -m unittest"
+

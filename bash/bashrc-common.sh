@@ -42,3 +42,5 @@ _py_doc() {
     sleep 2
     "C:\Program Files (x86)\Google\Chrome\Application\chrome.exe" http://localhost:6061
 }
+
+alias unittest="python3 -m unittest"
