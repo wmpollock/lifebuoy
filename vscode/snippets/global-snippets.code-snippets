@@ -16,10 +16,16 @@
 	// 	"description": "Log output to console"
 	// }
 
-	"Talk to HR": {
+	"horizontal rule: light": {
 		"prefix": "hr",
 		"body": [
 			"$1-----------------------------------------------------------------------------"
+		]
+	},
+	"horizontal rule: HEAVY": {
+		"prefix": "HR",
+		"body": [
+			"$1============================================================================="
 		]
 	},
 	"perllib": {
