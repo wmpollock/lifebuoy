@@ -3,6 +3,15 @@ export CLICOLOR=1
 export CDPATH=./:~/:~/Git
 export PATH=$PATH:.
 
+
+alias code-lifebuoy='_code ~/Git/lifebuoy "$@"'
+_code() {
+    # Allegedly this should work but not in gitbash?
+    # Seems to want to wait() for the r
+    code -nw $@ &
+}
+
+
 alias lstree="ls -R | grep ':$' | sed -e 's/:$//' -e 's/[^-][^\/]*\//--/g' -e 's/^/   /' -e 's/-/|/'"
 
 # MISC HELPERS
