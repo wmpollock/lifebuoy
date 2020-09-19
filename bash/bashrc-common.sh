@@ -5,6 +5,7 @@ export PATH=$PATH:.
 
 
 alias code-lifebuoy='_code ~/Git/lifebuoy "$@"'
+alias code-metafiddler='_code ~/Git/metafiddler "$@"'
 _code() {
     # Allegedly this should work but not in gitbash?
     # Seems to want to wait() for the r
