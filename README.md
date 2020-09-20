@@ -1,35 +1,34 @@
 # lifebuoy
 Lifebuoy!  For health!
 
-## Get
+![Lifebuoy!  For health!](.lifebuoy.jpg)
+
+## Configuration to use
+### Git
 
 ```sh
 echo -e "\n[include]\n\tpath = ~/Git/lifebuoy/git/git-aliases.ini" >> ~/.gitconfig
 
 ```
 
-## bash
+### bash
 
-### linux
+#### linux
 
 ```sh
 echo -e "\nsource ~/Git/lifebuoy/bash/bashrc-common.sh\nsource ~/Git/lifebuoy/bash/bashrc-linux.sh\n" >> ~/.bashrc
 ```
 
-### Windows
+#### Windows
 
 ```sh
 echo -e "\nsource ~/Git/lifebuoy/bash/bashrc-common.sh\nsource ~/Git/lifebuoy/bash/bashrc-windows.sh\n" >> ~/.bashrc
 ```
 
-
-# VS Code
-
-
+## VS Code
 
 ```sh
 mklink /D C:\Users\YOU\AppData\Roaming\Code\User\snippets C:\Users\YOU\git\lifebuoy\vscode\snippets
 ```
 
-<!-- Via: https://commons.wikimedia.org/wiki/File:Animal_Life_and_the_World_of_Nature;_A_magazine_of_Natural_History_(1903)_(18011899630).jpg -->
-![Lifebuoy!  For health!](.lifebuoy.jpg)
+Masthead source: [Wikimedia Commons](https://commons.wikimedia.org/wiki/File:Animal_Life_and_the_World_of_Nature;_A_magazine_of_Natural_History_(1903)_(18011899630).jpg) (edited)
