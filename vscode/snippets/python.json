@@ -31,7 +31,7 @@
 		"description": "Python pretty print snippet."
 	},
 	"Test Case": {
-		"prefix": "testcase",
+		"prefix": "unittest",
 		"body": [
 			"#!/usr/bin/env python3\n",
 			"\"\"\" \"\"\"",
