@@ -74,6 +74,13 @@
 		"description": "Module flowerbox"
 	 }
 
+	"plantuml declaration": {
+		"prefix": "@startuml",
+		"body": [
+			"@startuml",
+			"@enduml"
+		]
+	}
 	
 
 
