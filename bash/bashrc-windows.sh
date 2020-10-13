@@ -20,3 +20,4 @@ alias python3="/c/Python38/python.exe"
 alias whereis=where
 alias reset-tty='kill -WINCH $$'
 
+alias insecure-chrome="chrome --disable-web-security --disable-gpu --user-data-dir=~/chromeTemp"
