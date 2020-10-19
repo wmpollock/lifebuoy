@@ -59,5 +59,5 @@ alias unittest="python3 -m unittest"
 
 alias go-coverage="go test -coverprofile=coverage.out && go tool cover -html=coverage.out"
 
-alias mark="pwd > ~/.skid"
-alias snap='cd `cat ~/.skid`'
+alias mark="pwd > ~/.mark"
+alias skip='cd `cat ~/.mark`'
